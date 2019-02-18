@@ -17,13 +17,16 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select a heart measurement" />
+            android:text="Select a heart measurement"
+            android:id="@+id/MainText"
+            />
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </LinearLayout>
+            android:layout_height="wrap_content"
+            android:id="@+id/HeartRate"/>
+
 </LinearLayout>
